@@ -44,7 +44,7 @@ export default function TourCards({ tour }) {
 						<Box sx={{ display: "flex", alignItems: "center" }}>
 							<AccessTimeIcon fontSize="sm" />
 							<Typography variant="subtitle2" component="b" ml={0.5}>
-								{tour.duration}
+								{tour.duration} hours
 							</Typography>
 						</Box>
 						<Box sx={{ display: "flex", alignItems: "center", mt: 3 }}>
@@ -58,7 +58,7 @@ export default function TourCards({ tour }) {
 								{tour.rating}
 							</Typography>
 							<Typography variant="body3" component="p" ml={1}>
-								{tour.numberOfReviews} reviews
+								({tour.numberOfReviews} reviews)
 							</Typography>
 						</Box>
 						<Box>
