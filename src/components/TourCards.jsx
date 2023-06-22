@@ -38,7 +38,7 @@ export default function TourCards({ tour }) {
 		<Grid item xs={6} md={4} lg={3}>
 			<Paper>
 				<ThemeProvider theme={myTheme}>
-					<img src={tour.image} />
+					<img src={tour.image} className="img" />
 					<Box sx={{ px: 1 }}>
 						<Typography variant="subtitle1">{tour.name}</Typography>
 						<Box sx={{ display: "flex", alignItems: "center" }}>

@@ -1,16 +1,13 @@
 import Container from "@mui/material/Container"
 import Grid from "@mui/material/Grid"
+import { Typography } from "@mui/material"
 import TourCards from "../components/TourCards"
 
 import cities from "../data.json"
 
-import Appbar from "../components/AppBar"
-import { Typography } from "@mui/material"
-
 export default function Home() {
 	return (
 		<div>
-			<Appbar />
 			<Container sx={{ my: 5 }}>
 				{cities.map((city) => (
 					<>
